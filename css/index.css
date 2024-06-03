@@ -1,23 +1,33 @@
 *{
-    padding: 25px;
-    margin: 30px;
-    background-color: #2e89addc;
+    padding: 0px;
+    margin: 0px;
+    background-color: #8ed2ed;
  }
 
+ .clase{
+    display:flex; 
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
 
-h1{
-    border: 50px 20px 50px #000000 ;
-    font-weight: 500;
+.titulo{
+    border-radius: 25px;
+    border:medium black;
+    background-color: rgba(255, 255, 255, 0.726) ;
+    font-weight: 50;
     font-size: 60px;
-    color: black;
     text-shadow: 2px 2px 4px #683535;
-    margin-top: 20px;
+    margin-top: 200px;
+    width: 700px;
     display: flex;
     justify-content: center;
    
 }
 
-h4{
+.eslogan{
+    
     font-weight: 500;
     font-size: 20px;
     color: black;
@@ -27,26 +37,42 @@ h4{
     justify-content: center;    
 }
 
-#generador {
-      
+
+
+.btn {
+    margin-top: 100px;
     color: #ffffff;
     background-color: #000000;
     padding: 8px;
+    cursor: pointer;
     border-radius: 15px;
-    border-color: #ffffffdc;
-    width: 500px;
+    border-color: #826060dc;
+    width: 250px;
     box-shadow: 2px 2px 2px #624b4b8d ;
-    
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+    transition: all 0.3s ease;
+}
+
+#btn{
+    background-color: #4d252567;
+}
+
+#btn:hover{
+    background-color: #fff7f7;
+    color: #000;
+
 }
 
 
 
-footer{
-    margin-top: 20px;
+.footer{
+    border: #000000;
+    background-color: #2d5565;
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    flex-direction: column;
+    justify-content:center;
+    margin-top:372px;
 }

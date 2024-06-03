@@ -3,11 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agendar</title>
+
+    <title>Agendar Tarea</title>
+
+    <link rel="shortcut icon" href="../sources/letra-t.png">
+    <link rel="stylesheet" href="../css/agendar.css">
+    <link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
+
+    <header>
+        <h1>Añadir Tarea</h1>
+    </header>
     
+    <main>
+
+        <section>
+            <form>
+                <input type="text" id="title" placeholder="Título" required>
+                <textarea id="description" placeholder="Descripción" required></textarea>
+                <input type="date" id="estimated-end-date" placeholder="Fecha Estimada de Finalización" required>
+
+                <a>
+                    <tr>Estado</tr>
+                    <select id="status" required>
+                        <option value=""> </option>
+                        <option value="1">Pendiente</option>
+                        <option value="2">En Proceso</option>
+                        <option value="3">Terminada</option>
+                        <option value="4">Cancelada</option>
+                    </select>
+                </a>
+
+                <textarea id="observations" placeholder="Observaciones"></textarea>
+
+                <div>
+                    <tr>Prioridad</tr>
+                    <select id="priority" required >
+                        <option value=""> </option>
+                        <option value="1">Alta</option>
+                        <option value="2">Media</option>
+                        <option value="3">Baja</option>
+                    </select>
+                </div>
+               
+                <button type="submit" id="btnCrear">Crear Tarea</button>
+            </form>
+        </section>
+    </main>
 </body>
+
+
 
 <footer>
     <link rel="stylesheet" href="html/pagina_Principal.html">
@@ -24,10 +70,10 @@
          </div>
         </form>
 
-        <link rel="stylesheet" href="html/estado.html">
-        <form action="estado.html" target="_self" accept="#" method="get">
+        <link rel="stylesheet" href="html/registro.html">
+        <form action="registro.html" target="_self" accept="#" method="get">
          <div>   
-             <button id="generador" type="submit">Estado</button>  
+             <button id="generador" type="submit">Registro</button>  
          </div>
         </form>
 

@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #8ed2ed;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+   
+    
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    background-color: aliceblue;
+    border-color: #826060dc;
+    box-shadow: 2px 2px 2px 2px #624b4b8d ;
+}
+
+header h1{
+    background-color: aliceblue;
+    color: #068abf;
+    
+    border-style: dashed;
+    border-color: #0000008d;
+}
+
+.status{
+width: 20px;
+}
+
+
+
+main {
+    
+    margin:50px;
+    width:auto;
+    padding: 45px;
+    background-color: #8ed2ed;
+    
+}
+
+
+form input, form textarea, form select {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 2px #624b4b8d ;
+    width: calc(100% - 2em);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #fffcfc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+#btnCrear {
+    
+    background-color: #024081;
+    color: white;
+    margin: auto;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 15px;
+    border:double;
+    box-shadow: 1px 1px 2px 1px #624b4b8d ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+
+}
+
+#btnCrear:hover {
+    background-color:rgb(255, 187, 15);
+    color: #020202;
+    box-shadow: 5px 5px 3px 5px #624b4b8d ;
+}
+
+

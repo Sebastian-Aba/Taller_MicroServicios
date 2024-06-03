@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #8ed2ed;
+}
+
+
+
+h1{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: rgb(28, 35, 42);
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    padding: 50px;
+    display: flex;
+    justify-content: center; 
+}
+
+table thead{
+    background-color: rgb(251, 251, 251);
+    padding: 2px;
+}
+
+

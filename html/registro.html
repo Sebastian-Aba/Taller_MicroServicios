@@ -2,27 +2,22 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
-    <title>Pagina Principal</title>
 
-    <link rel="shortcut icon" href="../sources/letra-t.png">
-    <link rel="stylesheet" href="../css/principal.css">
+    <title>Estado</title>
+
+    <link rel="stylesheet" href="../css/registro.css">
     <link rel="stylesheet" href="../css/footer.css">
 </head>
-
 <body>
-    <header>
-        <h1>Bienvenido, (usuario)</h1>
-        <h2 >Estas son tus tareas pendientes</h2>
-    </header>
-    
+    <head>
+        <h1>Registro de Tareas</h1>
+    </head>
 
     <section>
         <table>
             <thead>
+                <h3>Tareas Pendientes</h3>
                 <tr>
                     <th>Título</th>
                     <th>Descripción</th>
@@ -33,13 +28,52 @@
                 </tr>
             </thead>
 
-            <tbody id="tasks-table-body"> 
-
-
-                
+            <tbody id="tasks-table-body-pendientes"> 
             </tbody>
         </table>
     </section>
+
+
+    <section>
+        <table>
+            <thead>
+                <h3>Tareas Completas</h3>
+                <tr>
+                    <th>Título</th>
+                    <th>Descripción</th>
+                    <th>Fecha</th>
+                    <th>Estado</th>
+                    <th>Observacion</th>
+                    <th>Prioridad</th>
+                </tr>
+            </thead>
+
+            <tbody id="tasks-table-body-completas"> 
+
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <table>
+            <thead>
+                <h3>Tareas Canceladas</h3>
+                <tr>
+                    <th>Título</th>
+                    <th>Descripción</th>
+                    <th>Fecha</th>
+                    <th>Estado</th>
+                    <th>Observacion</th>
+                    <th>Prioridad</th>
+                </tr>
+            </thead>
+
+            <tbody id="tasks-table-body-canceladas"> 
+
+            </tbody>
+        </table>
+    </section>
+
 </body>
 
 <footer>
